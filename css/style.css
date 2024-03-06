@@ -13,6 +13,17 @@ body {
   background-size: cover;
 }
 
+.size1 {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+.size2 {
+  width: 120px;
+  height: 120px;
+}
+
 #header {
   text-align: center;
 }
@@ -20,16 +31,25 @@ body {
 #planets {
   border-collapse: collapse;
   margin: auto;
-  width: 50px;
   min-width: 600px;
   background-color: white;
+  border-radius: 5px 5px 0 0;
 }
 
 th {
-  text-align: center;
+  padding: 7px;
+  text-align: justify;
   background-color: rgb(218, 164, 253);
+}
+
+td {
+  padding: 7px;
 }
 
 .column-1 {
   font-weight: bold;
+}
+
+.opposite {
+  background-color: rgba(217, 164, 253, 0.242);
 }
