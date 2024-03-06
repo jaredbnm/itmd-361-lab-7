@@ -9,6 +9,8 @@ td, th {
 
 body {
   font-family: 'Silka';
+  background-image: url(/images/blue.jpg);
+  background-size: cover;
 }
 
 #header {
@@ -20,9 +22,14 @@ body {
   margin: auto;
   width: 50px;
   min-width: 600px;
+  background-color: white;
 }
 
 th {
   text-align: center;
-  background-color: aqua;
+  background-color: rgb(218, 164, 253);
+}
+
+.column-1 {
+  font-weight: bold;
 }
