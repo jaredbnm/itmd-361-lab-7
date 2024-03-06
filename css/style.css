@@ -4,12 +4,12 @@ td, th {
 
 @font-face {
   font-family: 'Silka';
-  src: url("../font/SilkaMono-Regular.otf");
+  src: url(../font/SilkaMono-Regular.otf);
 }
 
 body {
   font-family: 'Silka';
-  background-image: url("../images/blue.jpg");
+  background-image: url(../images/blue.jpg);
   background-size: cover;
 }
 
