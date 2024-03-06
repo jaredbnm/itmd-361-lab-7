@@ -26,6 +26,8 @@ body {
 
 #header {
   text-align: center;
+  text-shadow: 1px 1px 0px rgb(244, 197, 255);
+  ;
 }
 
 #planets {
@@ -33,7 +35,6 @@ body {
   margin: auto;
   min-width: 600px;
   background-color: white;
-  border-radius: 5px 5px 0 0;
 }
 
 th {
