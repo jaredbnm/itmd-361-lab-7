@@ -1,3 +1,28 @@
 td, th {
 	border: 1px solid;
   }
+
+@font-face {
+  font-family: 'Silka';
+  src: url(/font/SilkaMono-Regular.otf);
+}
+
+body {
+  font-family: 'Silka';
+}
+
+#header {
+  text-align: center;
+}
+
+#planets {
+  border-collapse: collapse;
+  margin: auto;
+  width: 50px;
+  min-width: 600px;
+}
+
+th {
+  text-align: center;
+  background-color: aqua;
+}
